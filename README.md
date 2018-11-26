@@ -51,3 +51,9 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 ├── tslint.json                     // tslint 配置
 └── vue.config.js                   // webpack 配置
 ```
+
+三个帮助采坑的教程链接：
+
+- [Vue with TypeScript](https://juejin.im/post/5bd698c7f265da0ae8015f12)
+- [TypeScript+Vue实例完全教程](https://zhuanlan.zhihu.com/p/32122243)
+- [TypeScript-vue-learn](https://github.com/wlx200510/TypeScript-vue-learn)
