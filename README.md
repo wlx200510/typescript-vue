@@ -55,5 +55,12 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 三个帮助采坑的教程链接：
 
 - [Vue with TypeScript](https://juejin.im/post/5bd698c7f265da0ae8015f12)
-- [TypeScript+Vue实例完全教程](https://zhuanlan.zhihu.com/p/32122243)
+- [TypeScript+Vue实例完全教程](https://zhuanlan.zhihu.com/p/32122243) --比较老了
 - [TypeScript-vue-learn](https://github.com/wlx200510/TypeScript-vue-learn)
+
+可以主要参考的组件：'/src/views/Home.vue'
+- vue-property-decorator (@Emit/@Model还没样例)
+- vuex-class (尤其要注意namespace的使用)
+
+本质上都是语法糖。
+欢迎大家fork和star 一起学习 一起进步

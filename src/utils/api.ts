@@ -44,9 +44,10 @@ service.interceptors.request.use(
 service.interceptors.response.use(
   (res) => {
     removePending(res.config);
-    return res;
+    return res.data;
   },
   (error) => {
+    console.log(error)
     return Promise.reject(error);
   },
 );

@@ -16,6 +16,13 @@
     "object-literal-sort-keys": false,
     "no-consecutive-blank-lines": false,
     "no-namespace": [true, "allow-declarations"],
-    "no-shadow": ["error", { "builtinGlobals": false, "hoist": "functions", "allow": [] }]
+    "semicolon": false,
+    "no-console": [
+      false
+    ],
+    "only-arrow-functions": [
+      false
+    ],
+    "no-shadowed-variable": false
   }
 }
