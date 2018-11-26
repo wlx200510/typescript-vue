@@ -12,11 +12,16 @@
     "sourceMap": true,
     "baseUrl": ".",
     "types": [
-      "webpack-env"
+      "webpack-env",
+      "node"
     ],
     "paths": {
       "@/*": [
         "src/*"
+      ],
+      "*": [
+        "node_modules/*",
+        "src/types/*"
       ]
     },
     "lib": [
