@@ -1,29 +1,18 @@
 # typescript-vue
 
-## Project setup
+### 使用的命令说明，建议`yarn`
 ```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-```
-yarn run serve
+yarn install    // Project setup
+yarn run serve  // Compiles and hot-reloads for development
+yarn run build  // Compiles and minifies for production
+yarn run lint   // Lints and fixes files
 ```
 
-### Compiles and minifies for production
-```
-yarn run build
-```
+### vue-config的自定义属性说明
 
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
-### custom structure
+### 样例项目架构
 
 ```shell
 ├── public                          // 静态页面
@@ -54,13 +43,17 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 三个帮助采坑的教程链接：
 
-- [Vue with TypeScript](https://juejin.im/post/5bd698c7f265da0ae8015f12)
+- [TypeScript-vue-learn](https://github.com/wlx200510/TypeScript-vue-learn) --推荐
+- [Vue with TypeScript](https://juejin.im/post/5bd698c7f265da0ae8015f12) --推荐
 - [TypeScript+Vue实例完全教程](https://zhuanlan.zhihu.com/p/32122243) --比较老了
-- [TypeScript-vue-learn](https://github.com/wlx200510/TypeScript-vue-learn)
 
 可以主要参考的组件：'/src/views/Home.vue'
 - vue-property-decorator (@Emit/@Model还没样例)
 - vuex-class (尤其要注意namespace的使用)
 
 本质上都是语法糖。
+
+需要注意的是`.d.ts`文件的编写, 方便解决常见的一个模块引用报错
+尽量减少any的类型
+
 欢迎大家fork和star 一起学习 一起进步
