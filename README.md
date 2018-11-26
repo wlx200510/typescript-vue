@@ -53,7 +53,9 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 本质上都是语法糖。
 
-需要注意的是`.d.ts`文件的编写, 方便解决常见的一个模块引用报错
-尽量减少any的类型
+- 需要注意的是`.d.ts`文件的编写, 方便解决常见的一个模块引用报错
+- 尽量减少any的类型，学会接口定义和泛型使用
+- 本仓库基于最新vue-cli3.0改造而来，可直接用于项目
+- [TypeScript-vue-learn](https://github.com/wlx200510/TypeScript-vue-learn)里面的readme是一份完整文档，比较详尽
 
 欢迎大家fork和star 一起学习 一起进步
