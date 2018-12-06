@@ -63,8 +63,7 @@ export default class Home extends Vue {
 
   // 方法可以直接定义，不需要用methods包裹起来
   public getCityWeather(city: string): void {
-    // this.getTodayWeather({city: city}) -> store.dispatch('home/foo', { city: city })
-    this.getTodayWeather({ city }).then((res: Ajax.AjaxResponse) => {
+    this.getTodayWeather({ city }).then((res: Ajax.AjaxResponse) => { // -> store.dispatch('home/foo', { city: city })
       const { low, high, type } = res.data.forecast[0]
       this.MESSAGE({ message: type })
       this.content = { low, high, type }
