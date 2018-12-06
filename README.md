@@ -449,7 +449,7 @@ test() {
 - methods
 
 ### 总结
-一开始学习了微软在VUE项目中引入TS的过程，参考了[TypeScript Vue Starter](https://github.com/Microsoft/TypeScript-Vue-Starter#typescript-vue-starter)，建立了初步概念，在学习了相关TypeScript理念和一些常用实践后探究了大型Vue项目引入TypeScript的姿势。希望能给大家一些技巧和想法，最后再推荐一下按照本教程建立好的[仓库](https://github.com/wlx200510/typescript-vue)，欢迎star&fork。
+一开始学习了微软在VUE项目中引入TS的过程，参考了[TypeScript Vue Starter](https://github.com/Microsoft/TypeScript-Vue-Starter#typescript-vue-starter)，建立了初步概念，在学习了相关TypeScript理念和一些常用实践后探究了大型Vue项目引入TypeScript的姿势。希望能给大家一些技巧和想法，最后再推荐一下按照本教程建立好的[仓库](https://github.com/wlx200510/typescript-vue)，欢迎star&fork。我的微信号是`kashao3824`，如果有前端问题想要探讨的，欢迎加好友哦~
 
 Reference：
 - [合格前端第十二弹-TypeScript + 大型项目实战](https://zhuanlan.zhihu.com/p/40322215)
